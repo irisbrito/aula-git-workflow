@@ -3,6 +3,9 @@ package com.br.zup;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        System.out.println("Esses são os alunos!");
+        for (Aluno aluno : Aluno.values()){
+            System.out.println("-> "+ aluno+"\n");
+        }
     }
 }
